@@ -1,3 +1,12 @@
+libgpaste.so.11:LIBGPASTE_3_16_0
+libgpaste.so.11:LIBGPASTE_3_18_0
+libgpaste.so.11:LIBGPASTE_3_20_0
+libgpaste.so.11:LIBGPASTE_3_22_0
+libgpaste.so.11:LIBGPASTE_3_24_0
+libgpaste.so.11:LIBGPASTE_3_28_0
+libgpaste.so.11:LIBGPASTE_3_28_1
+libgpaste.so.11:LIBGPASTE_3_28_3
+libgpaste.so.11:LIBGPASTE_3_32_1
 libgpaste.so.11:g_paste_bus_get_connection
 libgpaste.so.11:g_paste_bus_get_type
 libgpaste.so.11:g_paste_bus_new
@@ -170,7 +179,6 @@ libgpaste.so.11:g_paste_image_item_get_checksum
 libgpaste.so.11:g_paste_image_item_get_date
 libgpaste.so.11:g_paste_image_item_get_image
 libgpaste.so.11:g_paste_image_item_get_type
-libgpaste.so.11:g_paste_image_item_is_growing
 libgpaste.so.11:g_paste_image_item_new
 libgpaste.so.11:g_paste_image_item_new_from_file
 libgpaste.so.11:g_paste_item_add_size
@@ -189,7 +197,6 @@ libgpaste.so.11:g_paste_item_new
 libgpaste.so.11:g_paste_item_remove_size
 libgpaste.so.11:g_paste_item_set_display_string
 libgpaste.so.11:g_paste_item_set_size
-libgpaste.so.11:g_paste_item_set_state
 libgpaste.so.11:g_paste_keybinder_activate_all
 libgpaste.so.11:g_paste_keybinder_add_keybinding
 libgpaste.so.11:g_paste_keybinder_deactivate_all
@@ -227,7 +234,6 @@ libgpaste.so.11:g_paste_settings_get_extension_enabled
 libgpaste.so.11:g_paste_settings_get_growing_lines
 libgpaste.so.11:g_paste_settings_get_history_name
 libgpaste.so.11:g_paste_settings_get_images_support
-libgpaste.so.11:g_paste_settings_get_launch_ui
 libgpaste.so.11:g_paste_settings_get_make_password
 libgpaste.so.11:g_paste_settings_get_max_displayed_history_size
 libgpaste.so.11:g_paste_settings_get_max_history_size
@@ -236,7 +242,6 @@ libgpaste.so.11:g_paste_settings_get_max_text_item_size
 libgpaste.so.11:g_paste_settings_get_min_text_item_size
 libgpaste.so.11:g_paste_settings_get_pop
 libgpaste.so.11:g_paste_settings_get_primary_to_history
-libgpaste.so.11:g_paste_settings_get_rich_text_support
 libgpaste.so.11:g_paste_settings_get_save_history
 libgpaste.so.11:g_paste_settings_get_show_history
 libgpaste.so.11:g_paste_settings_get_sync_clipboard_to_primary
@@ -246,7 +251,6 @@ libgpaste.so.11:g_paste_settings_get_track_changes
 libgpaste.so.11:g_paste_settings_get_track_extension_state
 libgpaste.so.11:g_paste_settings_get_trim_items
 libgpaste.so.11:g_paste_settings_get_type
-libgpaste.so.11:g_paste_settings_get_upload
 libgpaste.so.11:g_paste_settings_new
 libgpaste.so.11:g_paste_settings_reset_close_on_select
 libgpaste.so.11:g_paste_settings_reset_element_size
@@ -254,7 +258,6 @@ libgpaste.so.11:g_paste_settings_reset_empty_history_confirmation
 libgpaste.so.11:g_paste_settings_reset_growing_lines
 libgpaste.so.11:g_paste_settings_reset_history_name
 libgpaste.so.11:g_paste_settings_reset_images_support
-libgpaste.so.11:g_paste_settings_reset_launch_ui
 libgpaste.so.11:g_paste_settings_reset_make_password
 libgpaste.so.11:g_paste_settings_reset_max_displayed_history_size
 libgpaste.so.11:g_paste_settings_reset_max_history_size
@@ -263,7 +266,6 @@ libgpaste.so.11:g_paste_settings_reset_max_text_item_size
 libgpaste.so.11:g_paste_settings_reset_min_text_item_size
 libgpaste.so.11:g_paste_settings_reset_pop
 libgpaste.so.11:g_paste_settings_reset_primary_to_history
-libgpaste.so.11:g_paste_settings_reset_rich_text_support
 libgpaste.so.11:g_paste_settings_reset_save_history
 libgpaste.so.11:g_paste_settings_reset_show_history
 libgpaste.so.11:g_paste_settings_reset_sync_clipboard_to_primary
@@ -272,7 +274,6 @@ libgpaste.so.11:g_paste_settings_reset_synchronize_clipboards
 libgpaste.so.11:g_paste_settings_reset_track_changes
 libgpaste.so.11:g_paste_settings_reset_track_extension_state
 libgpaste.so.11:g_paste_settings_reset_trim_items
-libgpaste.so.11:g_paste_settings_reset_upload
 libgpaste.so.11:g_paste_settings_set_close_on_select
 libgpaste.so.11:g_paste_settings_set_element_size
 libgpaste.so.11:g_paste_settings_set_empty_history_confirmation
@@ -280,7 +281,6 @@ libgpaste.so.11:g_paste_settings_set_extension_enabled
 libgpaste.so.11:g_paste_settings_set_growing_lines
 libgpaste.so.11:g_paste_settings_set_history_name
 libgpaste.so.11:g_paste_settings_set_images_support
-libgpaste.so.11:g_paste_settings_set_launch_ui
 libgpaste.so.11:g_paste_settings_set_make_password
 libgpaste.so.11:g_paste_settings_set_max_displayed_history_size
 libgpaste.so.11:g_paste_settings_set_max_history_size
@@ -289,7 +289,6 @@ libgpaste.so.11:g_paste_settings_set_max_text_item_size
 libgpaste.so.11:g_paste_settings_set_min_text_item_size
 libgpaste.so.11:g_paste_settings_set_pop
 libgpaste.so.11:g_paste_settings_set_primary_to_history
-libgpaste.so.11:g_paste_settings_set_rich_text_support
 libgpaste.so.11:g_paste_settings_set_save_history
 libgpaste.so.11:g_paste_settings_set_show_history
 libgpaste.so.11:g_paste_settings_set_sync_clipboard_to_primary
@@ -298,7 +297,6 @@ libgpaste.so.11:g_paste_settings_set_synchronize_clipboards
 libgpaste.so.11:g_paste_settings_set_track_changes
 libgpaste.so.11:g_paste_settings_set_track_extension_state
 libgpaste.so.11:g_paste_settings_set_trim_items
-libgpaste.so.11:g_paste_settings_set_upload
 libgpaste.so.11:g_paste_settings_ui_panel_add_boolean_setting
 libgpaste.so.11:g_paste_settings_ui_panel_add_range_setting
 libgpaste.so.11:g_paste_settings_ui_panel_add_separator
