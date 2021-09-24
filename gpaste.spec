@@ -4,7 +4,7 @@
 #
 Name     : gpaste
 Version  : 3.40.2
-Release  : 14
+Release  : 15
 URL      : https://github.com/Keruspe/GPaste/archive/v3.40.2/GPaste-3.40.2.tar.gz
 Source0  : https://github.com/Keruspe/GPaste/archive/v3.40.2/GPaste-3.40.2.tar.gz
 Summary  : Library to handle and communicate with GPaste
@@ -20,6 +20,7 @@ Requires: gpaste-man = %{version}-%{release}
 Requires: gpaste-services = %{version}-%{release}
 BuildRequires : buildreq-meson
 BuildRequires : gettext
+BuildRequires : mutter-dev
 BuildRequires : perl(XML::Parser)
 BuildRequires : pkgconfig(appstream-glib)
 BuildRequires : pkgconfig(dbus-1)
@@ -30,13 +31,13 @@ BuildRequires : pkgconfig(glib-2.0)
 BuildRequires : pkgconfig(gnome-keybindings)
 BuildRequires : pkgconfig(gobject-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
-BuildRequires : pkgconfig(mutter-clutter-8)
 BuildRequires : pkgconfig(pango)
 BuildRequires : pkgconfig(systemd)
 BuildRequires : pkgconfig(x11)
 BuildRequires : pkgconfig(xi)
 BuildRequires : sed
 BuildRequires : vala
+Patch1: build.patch
 
 %description
 <a href="https://scan.coverity.com/projects/gpaste">
@@ -132,21 +133,22 @@ services components for the gpaste package.
 %prep
 %setup -q -n GPaste-3.40.2
 cd %{_builddir}/GPaste-3.40.2
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1619809804
+export SOURCE_DATE_EPOCH=1632501264
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
 ninja -v -C builddir
 
