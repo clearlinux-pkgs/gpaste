@@ -4,7 +4,7 @@
 #
 Name     : gpaste
 Version  : 3.40.2
-Release  : 13
+Release  : 14
 URL      : https://github.com/Keruspe/GPaste/archive/v3.40.2/GPaste-3.40.2.tar.gz
 Source0  : https://github.com/Keruspe/GPaste/archive/v3.40.2/GPaste-3.40.2.tar.gz
 Summary  : Library to handle and communicate with GPaste
