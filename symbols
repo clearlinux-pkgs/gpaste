@@ -265,5 +265,4 @@ libgpaste-gtk4.so.0:g_paste_gtk_preferences_window_new
 libgpaste-gtk4.so.0:g_paste_gtk_util_compute_checksum
 libgpaste-gtk4.so.0:g_paste_gtk_util_confirm_dialog
 libgpaste-gtk4.so.0:g_paste_gtk_util_empty_history
-libgpaste-gtk4.so.0:g_paste_gtk_util_show_preferences_window
 libgpaste-gtk4.so.0:g_paste_gtk_util_show_window
