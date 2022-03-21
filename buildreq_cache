@@ -1,3 +1,8 @@
-3.42.6
+42.0
+gjs-dev
+pkgconfig(appstream-glib)
+pkgconfig(gjs-1.0)
 pkgconfig(gnome-keybindings)
+pkgconfig(gtk4)
+pkgconfig(libadwaita-1)
 pkgconfig(systemd)
