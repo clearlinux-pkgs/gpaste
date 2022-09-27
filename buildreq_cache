@@ -1,6 +1,8 @@
-42.1
+43.0
+desktop-file-utils
 gjs-dev
 pkgconfig(appstream-glib)
+pkgconfig(gcr-base-3)
 pkgconfig(gjs-1.0)
 pkgconfig(gnome-keybindings)
 pkgconfig(gtk4)
