@@ -1,5 +1,5 @@
 PKG_NAME := gpaste
-URL = https://github.com/Keruspe/GPaste/archive/v43.2/GPaste-43.2.tar.gz
+URL = https://github.com/Keruspe/GPaste/archive/v44.0/GPaste-44.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

@@ -4,10 +4,10 @@
 # Using build pattern: meson
 #
 Name     : gpaste
-Version  : 43.2
-Release  : 27
-URL      : https://github.com/Keruspe/GPaste/archive/v43.2/GPaste-43.2.tar.gz
-Source0  : https://github.com/Keruspe/GPaste/archive/v43.2/GPaste-43.2.tar.gz
+Version  : 44.0
+Release  : 28
+URL      : https://github.com/Keruspe/GPaste/archive/v44.0/GPaste-44.0.tar.gz
+Source0  : https://github.com/Keruspe/GPaste/archive/v44.0/GPaste-44.0.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -23,8 +23,8 @@ BuildRequires : buildreq-meson
 BuildRequires : desktop-file-utils
 BuildRequires : gjs-dev
 BuildRequires : mutter-dev
-BuildRequires : pkgconfig(appstream-glib)
-BuildRequires : pkgconfig(gcr-base-3)
+BuildRequires : pkgconfig(gcr-4)
+BuildRequires : pkgconfig(gdk-3.0)
 BuildRequires : pkgconfig(gjs-1.0)
 BuildRequires : pkgconfig(gnome-keybindings)
 BuildRequires : pkgconfig(gtk4)
@@ -127,15 +127,15 @@ services components for the gpaste package.
 
 
 %prep
-%setup -q -n GPaste-43.2
-cd %{_builddir}/GPaste-43.2
+%setup -q -n GPaste-44.0
+cd %{_builddir}/GPaste-44.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679408780
+export SOURCE_DATE_EPOCH=1679928881
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
