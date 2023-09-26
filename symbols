@@ -134,6 +134,7 @@ libgpaste-2.so.0:g_paste_settings_get_max_history_size
 libgpaste-2.so.0:g_paste_settings_get_max_memory_usage
 libgpaste-2.so.0:g_paste_settings_get_max_text_item_size
 libgpaste-2.so.0:g_paste_settings_get_min_text_item_size
+libgpaste-2.so.0:g_paste_settings_get_open_centered
 libgpaste-2.so.0:g_paste_settings_get_pop
 libgpaste-2.so.0:g_paste_settings_get_primary_to_history
 libgpaste-2.so.0:g_paste_settings_get_rich_text_support
@@ -161,6 +162,7 @@ libgpaste-2.so.0:g_paste_settings_reset_max_history_size
 libgpaste-2.so.0:g_paste_settings_reset_max_memory_usage
 libgpaste-2.so.0:g_paste_settings_reset_max_text_item_size
 libgpaste-2.so.0:g_paste_settings_reset_min_text_item_size
+libgpaste-2.so.0:g_paste_settings_reset_open_centered
 libgpaste-2.so.0:g_paste_settings_reset_pop
 libgpaste-2.so.0:g_paste_settings_reset_primary_to_history
 libgpaste-2.so.0:g_paste_settings_reset_rich_text_support
@@ -187,6 +189,7 @@ libgpaste-2.so.0:g_paste_settings_set_max_history_size
 libgpaste-2.so.0:g_paste_settings_set_max_memory_usage
 libgpaste-2.so.0:g_paste_settings_set_max_text_item_size
 libgpaste-2.so.0:g_paste_settings_set_min_text_item_size
+libgpaste-2.so.0:g_paste_settings_set_open_centered
 libgpaste-2.so.0:g_paste_settings_set_pop
 libgpaste-2.so.0:g_paste_settings_set_primary_to_history
 libgpaste-2.so.0:g_paste_settings_set_rich_text_support

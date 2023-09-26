@@ -4,10 +4,10 @@
 # Using build pattern: meson
 #
 Name     : gpaste
-Version  : 44.1
-Release  : 29
-URL      : https://github.com/Keruspe/GPaste/archive/v44.1/GPaste-44.1.tar.gz
-Source0  : https://github.com/Keruspe/GPaste/archive/v44.1/GPaste-44.1.tar.gz
+Version  : 45
+Release  : 30
+URL      : https://github.com/Keruspe/GPaste/archive/v45/GPaste-45.tar.gz
+Source0  : https://github.com/Keruspe/GPaste/archive/v45/GPaste-45.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -128,10 +128,10 @@ services components for the gpaste package.
 
 
 %prep
-%setup -q -n GPaste-44.1
-cd %{_builddir}/GPaste-44.1
+%setup -q -n GPaste-45
+cd %{_builddir}/GPaste-45
 pushd ..
-cp -a GPaste-44.1 buildavx2
+cp -a GPaste-45 buildavx2
 popd
 
 %build
@@ -139,7 +139,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689609318
+export SOURCE_DATE_EPOCH=1695737712
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -191,16 +191,20 @@ DESTDIR=%{buildroot} ninja -C builddir install
 /usr/share/glib-2.0/schemas/org.gnome.GPaste.gschema.xml
 /usr/share/gnome-control-center/keybindings/42-gpaste.xml
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/aboutItem.js
+/usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/actionButton.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/actionButtonActor.js
+/usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/actions.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/checkerBypass.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/deleteButton.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/deleteItemPart.js
+/usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/dependencies.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/dummyHistoryItem.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/emptyHistoryItem.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/extension.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/indicator.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/item.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/metadata.json
+/usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/padding.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/pageItem.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/pageSwitcher.js
 /usr/share/gnome-shell/extensions/GPaste@gnome-shell-extensions.gnome.org/prefs.js
