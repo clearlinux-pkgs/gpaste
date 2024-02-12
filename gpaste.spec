@@ -7,7 +7,7 @@
 #
 Name     : gpaste
 Version  : 45
-Release  : 31
+Release  : 32
 URL      : https://github.com/Keruspe/GPaste/archive/v45/GPaste-45.tar.gz
 Source0  : https://github.com/Keruspe/GPaste/archive/v45/GPaste-45.tar.gz
 Summary  : No detailed summary available
