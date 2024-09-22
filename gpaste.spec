@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : gpaste
-Version  : 45.1
-Release  : 34
-URL      : https://github.com/Keruspe/GPaste/archive/v45.1/GPaste-45.1.tar.gz
-Source0  : https://github.com/Keruspe/GPaste/archive/v45.1/GPaste-45.1.tar.gz
+Version  : 45.2
+Release  : 35
+URL      : https://github.com/Keruspe/GPaste/archive/v45.2/GPaste-45.2.tar.gz
+Source0  : https://github.com/Keruspe/GPaste/archive/v45.2/GPaste-45.2.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -130,10 +130,10 @@ services components for the gpaste package.
 
 
 %prep
-%setup -q -n GPaste-45.1
-cd %{_builddir}/GPaste-45.1
+%setup -q -n GPaste-45.2
+cd %{_builddir}/GPaste-45.2
 pushd ..
-cp -a GPaste-45.1 buildavx2
+cp -a GPaste-45.2 buildavx2
 popd
 
 %build
@@ -141,7 +141,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1726851453
+export SOURCE_DATE_EPOCH=1727043221
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
