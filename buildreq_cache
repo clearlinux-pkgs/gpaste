@@ -1,10 +1,7 @@
-45.2
+45.3
 desktop-file-utils
 gjs-dev
 pkgconfig(gcr-4)
-pkgconfig(gdk-3.0)
 pkgconfig(gjs-1.0)
 pkgconfig(gnome-keybindings)
-pkgconfig(gtk4)
 pkgconfig(libadwaita-1)
-pkgconfig(systemd)

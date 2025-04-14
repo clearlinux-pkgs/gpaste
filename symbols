@@ -245,6 +245,8 @@ libgpaste-gtk-3.so.0:g_paste_gtk_util_show_win@@LIBGPASTE_GTK3_42
 libgpaste-gtk4.so.0:LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_behaviour_page_get_type@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_behaviour_page_new@@LIBGPASTE_GTK4_42
+libgpaste-gtk4.so.0:g_paste_gtk_preferences_dialog_get_type@@LIBGPASTE_GTK4_42
+libgpaste-gtk4.so.0:g_paste_gtk_preferences_dialog_new@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_group_add_boolean_setting@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_group_add_range_setting@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_group_add_text_setting@@LIBGPASTE_GTK4_42
@@ -263,8 +265,6 @@ libgpaste-gtk4.so.0:g_paste_gtk_preferences_shortcuts_page_get_type@@LIBGPASTE_G
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_shortcuts_page_new@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_widget_get_type@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_preferences_widget_new@@LIBGPASTE_GTK4_42
-libgpaste-gtk4.so.0:g_paste_gtk_preferences_window_get_type@@LIBGPASTE_GTK4_42
-libgpaste-gtk4.so.0:g_paste_gtk_preferences_window_new@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_util_compute_checksum@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_util_confirm_dialog@@LIBGPASTE_GTK4_42
 libgpaste-gtk4.so.0:g_paste_gtk_util_empty_history@@LIBGPASTE_GTK4_42
